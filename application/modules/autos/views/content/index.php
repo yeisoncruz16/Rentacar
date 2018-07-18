@@ -1,5 +1,5 @@
 <div class="admin-box">
-    <h3>Blog Posts</h3>
+    <h3>Autos</h3>
 
     <?php echo form_open(); ?>
 
@@ -7,7 +7,7 @@
         <thead>
         <tr>
             <th class="column-check"><input class="check-all" type="checkbox" /></th>
-            <th>Title</th>
+            <th></th>
             <th style="width: 10em">Date</th>
         </tr>
         </thead>
@@ -20,13 +20,13 @@
         </tr>
         </tfoot>
         <tbody>
-        <?php if (isset($posts) && is_array($posts)) :?>
-            <?php foreach ($posts as $post) : ?>
+        <?php if (isset($autos) && is_array($autos)) :?>
+            <?php foreach ($autos as $auto) : ?>
                 <tr>
-                    <td><input type="checkbox" name="checked[]" value="<?php echo $post->post_id ?>" /></td>
+                    <td><input type="checkbox" name="checked[]" value="<?php echo $auto->autos_id ?>" /></td>
                     <td>
-                        <a href="<?php echo site_url(SITE_AREA .'/content/blog/edit_post/'. $post->post_id) ?>">
-                            <?php e($post->title); ?>
+                        <a href="<?php echo site_url(SITE_AREA .'/content/autos/edit_post/'. $auto->autos_id) ?>">
+                            <?php e($auto->nombre); ?>
                         </a>
                     </td>
                     <td>
@@ -39,7 +39,7 @@
                 <td colspan="3">
                     <br/>
                     <div class="alert alert-warning">
-                        No Posts found.
+
                     </div>
                 </td>
             </tr>

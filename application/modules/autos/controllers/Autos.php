@@ -1,24 +1,22 @@
 <?php
 
-class Reserva extends Front_Controller
+class Autos extends Front_Controller
 {
-
     public function __construct()
     {
         parent:: __construct();
-        $this->load->model('post_model');
+        $this->load->model('autos_model');
     }
 
     public function index()
     {
         $this->load->helper('typography');
-        $posts = $this->post_model->order_by('created_on', 'asc')
+        $autos = $this->autos_model->order_by('created_on', 'asc')
             ->limit(5)
             ->find_all();
 
-        Template::set('posts', $posts);
+        Template::set('autos', $autos);
         Template::render();
     }
-
 
 }

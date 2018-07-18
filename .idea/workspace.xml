@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="917a12be-ace8-4dcb-8d21-2e41d5e18e83" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="917a12be-ace8-4dcb-8d21-2e41d5e18e83" name="Default" comment="Removiendo lineas">
+      <change afterPath="$PROJECT_DIR$/application/modules/autos/controllers/Content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/modules/autos/migrations/001_Initial_tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/modules/autos/migrations/002_Roles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/modules/autos/models/autos_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/modules/autos/views/content/autos_form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/modules/autos/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/blog" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/controllers/Content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/controllers/Reserva.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/migrations/001_Tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/models/post_model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/views/content/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/views/content/post_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/views/content/sub_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/autos/views/content/sub_nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/carros/views/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/poo/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/autos/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/poo/views/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/controllers/Content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/controllers/Reserva.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/autos/controllers/Autos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/migrations/001_Tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/models/post_model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/views/content/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/autos/views/content/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/views/content/post_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/views/content/sub_nav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/reserva/views/index.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,27 +64,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/carros/controllers/Content.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/autos/views/content/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-150">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reserva.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/carros/controllers/Reserva.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -66,17 +81,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/modules/blog/migrations/001_Initial_tables.php" />
-        <option value="$PROJECT_DIR$/application/modules/blog/config/config.php" />
-        <option value="$PROJECT_DIR$/application/modules/blog/controllers/content.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/application/modules/blog/views/content/sub_nav.php" />
-        <option value="$PROJECT_DIR$/application/modules/blog/views/content/index.php" />
         <option value="$PROJECT_DIR$/application/modules/blog/views/content/post_form.php" />
-        <option value="$PROJECT_DIR$/application/modules/blog/models/post_model.php" />
-        <option value="$PROJECT_DIR$/application/modules/blog/controllers/Content.php" />
         <option value="$PROJECT_DIR$/application/modules/blog/views/index.php" />
         <option value="$PROJECT_DIR$/application/modules/poo/config/config.php" />
         <option value="$PROJECT_DIR$/application/modules/poo/views/index.php" />
@@ -102,9 +110,28 @@
         <option value="$PROJECT_DIR$/application/modules/reserva/migrations/001_Tables.php" />
         <option value="$PROJECT_DIR$/application/modules/carros/config/config.php" />
         <option value="$PROJECT_DIR$/application/modules/reserva/config/config.php" />
-        <option value="$PROJECT_DIR$/application/modules/carros/controllers/Content.php" />
         <option value="$PROJECT_DIR$/application/modules/carros/controllers/Reserva.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/modules/carros/controllers/Content.php" />
+        <option value="$PROJECT_DIR$/application/modules/carros/controllers/Carros.php" />
+        <option value="$PROJECT_DIR$/application/modules/carros/migrations/001_CarrosTables.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/migrations/001_Autos_tables.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/migrations/001_Initial_tables.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/config/config.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/migrations/002_Roles.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/views/content/sub_nav.php" />
+        <option value="$PROJECT_DIR$/bonfire/controllers/Images.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/controllers/Autos.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/views/index.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/models/autos_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/views/content/autos_form.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/controllers/archivo.php" />
+        <option value="$USER_HOME$/Downloads/Paginaweb/IngAutoSQL.php" />
+        <option value="$PROJECT_DIR$/application/modules/blog/controllers/Content.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/controllers/Content.php" />
+        <option value="$PROJECT_DIR$/application/modules/blog/views/content/index.php" />
+        <option value="$PROJECT_DIR$/application/modules/blog/models/post_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/autos/views/content/index.php" />
       </list>
     </option>
   </component>
@@ -122,7 +149,9 @@
     <option name="width" value="1346" />
     <option name="height" value="556" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,35 +169,6 @@
               <item name="Bonfire-master" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Bonfire-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bonfire-master" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bonfire-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bonfire-master" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="carros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bonfire-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bonfire-master" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="carros" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bonfire-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bonfire-master" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="carros" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Proyectos/repositorios/AMALLSYSTEM" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
@@ -230,27 +230,34 @@
       <workItem from="1531857948183" duration="695000" />
       <workItem from="1531859104701" duration="7331000" />
       <workItem from="1531917076973" duration="924000" />
-      <workItem from="1531919247073" duration="535000" />
+      <workItem from="1531919247073" duration="28636000" />
     </task>
+    <task id="LOCAL-00001" summary="Removiendo lineas">
+      <created>1531920023808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531920023808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58540000" />
+    <option name="totallyTimeSpent" value="86641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21136364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18939394" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060606" side_tool="true" weight="0.23966943" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14166667" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060606" side_tool="true" visible="true" weight="0.05123967" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.12954545" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848485" weight="0.30082646" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4939394" visible="true" weight="0.35206613" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4939394" visible="true" weight="0.05123967" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,155 +301,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removiendo lineas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removiendo lineas" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/language/english/bf_form_validation_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/sub_nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/migrations/001_Initial_tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="313" column="42" lean-forward="true" selection-start-line="313" selection-start-column="42" selection-end-line="313" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c9e3effc-01af-40dc-abc7-e63ff40434df/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/english/bf_form_validation_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/poo/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/arnold/9A7E-F627/Paginaweb/index.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/poo/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="105" column="29" lean-forward="true" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/poo/index.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/post_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/config/config.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/rentacar/migrations/001_Initial_tables.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/controllers/Content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/views/content/index.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/models/post_model.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/controllers/Content.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/controllers/Reserva.php" />
-    <entry file="file:///media/arnold/9A7E-F627/Paginaweb/admin.php" />
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/models/post_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" lean-forward="true" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/controllers/Blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/sub_nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/views/content/sub_nav.php" />
-    <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_autos.sql" />
-    <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_registro.sql" />
     <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_reservar.sql" />
     <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_routines.sql" />
     <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_vehiculos.sql" />
@@ -450,13 +313,6 @@
     <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_usuarios.sql" />
     <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_usuario.sql" />
     <entry file="file:///media/arnold/9A7E-F627/BDRENTACAR/login_reserva.sql" />
-    <entry file="file://$PROJECT_DIR$/application/modules/blog/migrations/001_Initial_tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/reserva/views/content/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -488,19 +344,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/reserva/migrations/001_Tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/reserva/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/carros/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,22 +361,247 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/carros/controllers/Carros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/carros/controllers/Content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/carros/controllers/Reserva.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/carros/migrations/001_CarrosTables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="405">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/application/modules/carros/models/post_model.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/reserva/migrations/001_Tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/arnold/9A7E-F627/Paginaweb/vehiculos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="78" lean-forward="true" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/arnold/9A7E-F627/Paginaweb/admin.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/migrations/002_Roles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Reports.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonfire/ci2/core/CodeIgniter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonfire/controllers/Images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/views/content/sub_nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/controllers/archivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Paginaweb/vehiculos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="238" column="4" lean-forward="true" selection-start-line="238" selection-start-column="4" selection-end-line="238" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Paginaweb/IngAutoSQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Paginaweb/IngAuto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Paginaweb/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="153" column="7" lean-forward="true" selection-start-line="153" selection-start-column="7" selection-end-line="153" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/views/content/autos_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/controllers/Blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/controllers/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/controllers/Autos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/sub_nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/post_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/models/post_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/migrations/001_Initial_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/blog/views/content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/migrations/001_Initial_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/models/autos_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/controllers/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/autos/views/content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
