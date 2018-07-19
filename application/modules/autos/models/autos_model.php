@@ -12,12 +12,12 @@ class Autos_model extends MY_Model
     protected $validation_rules = array(
         array(
             'field' => 'placa',
-            'label' => 'Placa',
+            'label' => 'placa',
             'rules' => 'trim|strip_tags'
         ),
         array(
             'field' => 'nombre',
-            'label' => 'Nombre',
+            'label' => 'nombre',
             'rules' => 'trim|strip_tags'
         ),
         array(
@@ -27,28 +27,28 @@ class Autos_model extends MY_Model
         ),
         array(
             'field' => 'color',
-            'label' => 'Color',
+            'label' => 'color',
             'rules' => 'trim|strip_tags'
         ),
         array(
             'field' => 'estado',
-            'label' => 'Estado',
+            'label' => 'estado',
             'rules' => 'trim|strip_tags'
         ),
 
         array(
             'field' => 'capacidad',
-            'label' => 'Capacidad',
+            'label' => 'capacidad',
             'rules' => 'trim|strip_tags'
         ),
         array(
             'field' => 'disponibilidad',
-            'label' => 'Disponibilidad',
+            'label' => 'disponibilidad',
             'rules' => 'trim|strip_tags'
         ),
         array(
             'field' => 'imagen',
-            'label' => 'Imagen',
+            'label' => 'imagen',
             'rules' => 'trim|strip_tags'
         )
     );

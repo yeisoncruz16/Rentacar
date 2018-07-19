@@ -9,6 +9,7 @@
             <th class="column-check"><input class="check-all" type="checkbox" /></th>
             <th></th>
             <th style="width: 10em">Date</th>
+
         </tr>
         </thead>
         <tfoot>
@@ -23,16 +24,19 @@
         <?php if (isset($autos) && is_array($autos)) :?>
             <?php foreach ($autos as $auto) : ?>
                 <tr>
+
                     <td><input type="checkbox" name="checked[]" value="<?php echo $auto->autos_id ?>" /></td>
                     <td>
                         <a href="<?php echo site_url(SITE_AREA .'/content/autos/edit_post/'. $auto->autos_id) ?>">
-                            <?php e($auto->nombre); ?>
+                            <?php e($auto->nombre);?>
+                            <img src="<?php echo base_url('upload/'.$auto->imagen.".jpg"); ?>" width="80" height="70"/>
                         </a>
                     </td>
                     <td>
                         <?php echo date('M j, Y g:ia'); ?>
                     </td>
                 </tr>
+
             <?php endforeach; ?>
         <?php else: ?>
             <tr>

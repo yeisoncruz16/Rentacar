@@ -70,7 +70,7 @@
     <div class="control-group <?php if (form_error('imagen')) echo 'error'; ?>">
         <label for="" class="">imagen</label>
         <div class="controls">
-            <input type="file" name="imagen" class="input-xxlarge" value="<?php echo isset($autos) ? $autos->imagen : set_value('imagen'); ?>" />
+            <input type="file" name="file" class="input-xxlarge" value="<?php echo isset($autos) ? $autos->imagen : set_value('imagen'); ?>" />
             <?php if (form_error('imagen')) echo '<span class="help-inline">'. form_error('imagen') .'</span>'; ?>
         </div>
     </div>

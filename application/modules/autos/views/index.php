@@ -3,9 +3,9 @@
     <?php foreach ($autos as $auto) : ?>
 
         <div class="post">
-            <h2><?php e($auto->imagen) ?></h2>
-
             <?php echo auto_typography($auto->nombre) ?>
+            <?php echo auto_typography($auto->placa)?>
+            <img src="<?php echo base_url('upload/'.$auto->imagen.".jpg"); ?>" width="80" height="70"/>
         </div>
     <?php endforeach; ?>
 
@@ -14,3 +14,4 @@
         No Posts were found.
     </div>
 <?php endif; ?>
+

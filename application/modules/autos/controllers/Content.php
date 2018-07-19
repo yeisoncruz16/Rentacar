@@ -14,16 +14,16 @@
      public function index()
     {
         $autos= $this->autos_model->where('deleted', 0)->find_all();
-        Template::render();
         Template::set('autos', $autos);
+        Template::render();
     }
      public function create()
      {
 
          if($this->input->post('submit'))
          {
-             $var = $this->input->post('imagen');
-             $var['name'];
+             $a=$this->cargar_archivo();
+             $var = $this->input->post('file');
              $data = array (
                  'placa' => $this->input->post('placa'),
                  'nombre'  => $this->input->post('nombre'),
@@ -32,8 +32,10 @@
                  'estado'  => $this->input->post('estado'),
                  'capacidad'  => $this->input->post('capacidad'),
                  'disponibilidad' => $this->input->post('disponibilidad'),
-                 'imagen'  =>$var['name']
+                 'imagen'  =>$a
              );
+
+
 
              if($this->autos_model->insert($data))
              {
@@ -42,7 +44,7 @@
              }
 
          }
-         $this->cargar_archivo();
+
          Template::set('toolbar_title', 'bb');
          Template::set_view('content/autos_form');
          Template::render();
@@ -50,28 +52,31 @@
 
      public function cargar_archivo()
      {
-         function cargar_archivo() {
-
-             $mi_imagen = 'imagen';
-             $config['upload_path'] = "uploads/";
-             $config['file_name'] = "imagen";
+             $img = rand();
+             $mi_imagen = 'file';
+             $config['upload_path'] = FCPATH . "/upload";
+             $config['file_name'] = $img.".jpg";
              $config['allowed_types'] = "gif|jpg|jpeg|png";
              $config['max_size'] = "50000";
              $config['max_width'] = "2000";
              $config['max_height'] = "2000";
 
-             $this->load->library('upload', $config);
 
+             $this->load->library('upload', $config);
              if (!$this->upload->do_upload($mi_imagen)) {
-                 //*** ocurrio un error
+                 echo "ocurrio un error";
                  $data['uploadError'] = $this->upload->display_errors();
                  echo $this->upload->display_errors();
                  return;
-             }
+             }else{
 
+             }
              $data['uploadSuccess'] = $this->upload->data();
+
+         return $img;
+
          }
-     }
+
 
      private function foto_redimencionar ($ruta, $nombre, $dir) {
          $config['image_library'] = 'gd2';
@@ -110,12 +115,9 @@
                  redirect(SITE_AREA .'/content/autos_form');
              }
          }
-
-         Template::set('post', $this->post_model->find($id));
-
+         Template::set('autos', $this->autos_model->find($id));
          Template::set('toolbar_title', 'Edit Post');
          Template::set_view('content/autos_form');
          Template::render();
      }
-
  }
