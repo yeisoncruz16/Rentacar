@@ -2,7 +2,6 @@
     <h3>Autos</h3>
 
     <?php echo form_open(); ?>
-
     <table class="table table-striped">
         <thead>
         <tr>
