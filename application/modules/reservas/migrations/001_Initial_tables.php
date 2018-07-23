@@ -10,7 +10,7 @@ class Migration_Initial_Tables extends Migration
         $this->dbforge->add_field('ciudad_reserva VARCHAR(255) NOT NULL');
         $this->dbforge->add_field('fecha_reserva DATE NOT NULL');
         $this->dbforge->add_field('hora_reserva TIME NOT NULL');
-        $this->dbforge->add_field('ciudad_devolucion TIME NOT NULL');
+        $this->dbforge->add_field('ciudad_devolucion VARCHAR(255) NOT NULL');
         $this->dbforge->add_field('fecha_devolucion DATE NOT NULL');
         $this->dbforge->add_field('hora_devolucion TIME NOT NULL');
         $this->dbforge->add_field('observaciones TEXT NULL');
@@ -24,14 +24,14 @@ class Migration_Initial_Tables extends Migration
         // Create the Permissions
         $this->load->model('permission_model');
         $this->permission_model->insert(array(
-            'name'          => 'Bonfire.Reserva.View',
+            'name'          => 'Bonfire.Reservas.View',
             'description'   => 'To view the blog menu.',
             'status'        => 'active'
         ));
 
         // Assign them to the admin role
         $this->load->model('role_permission_model');
-        $this->role_permission_model->assign_to_role('Administrator', 'Bonfire.Reserva.View');
+        $this->role_permission_model->assign_to_role('Administrator', 'Bonfire.Reservas.View');
     }
 
     public function down()

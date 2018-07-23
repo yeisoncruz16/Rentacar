@@ -1,9 +1,9 @@
 <?php
 
-class Reserva_model extends MY_Model
+class Reservas_model extends MY_Model
 {
-    protected $table_name   = 'autos';
-    protected $key          = 'autos_id';
+    protected $table_name   = 'reservas';
+    protected $key          = 'reservas_id';
     protected $set_created  = true;
     protected $set_modified = true;
     protected $soft_deletes = true;
@@ -47,4 +47,5 @@ class Reserva_model extends MY_Model
             'rules' => 'trim|strip_tags'
         )
     );
+
 }
