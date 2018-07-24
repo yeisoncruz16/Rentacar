@@ -8,22 +8,8 @@ header label{
     font-size: 25px;
     margin: 6px 0;
     cursor: pointer;
-    
 }
 
-
-.menu{
-    position: absolute;
-    top: 50px;
-    left: 0;
-    
-    width: 100%;
-    height: 100vh;
-   
-   
-     transition: all 0.5s;
-    transform: translateX(-100%);
-}
 
 .menu ul {
 		display: flex;
@@ -37,9 +23,6 @@ header label{
 	}
 	.menu ul li a:hover + ul, .menu ul li ul:hover {
 		display: block;
-        
-        
-        
 	}
 .id{
     background: rgba(0, 0, 0, 0.7);
