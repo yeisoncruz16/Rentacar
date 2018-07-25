@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Rent extends MX_Controller
+class Requisitos extends MX_Controller
 {
     public function __construct()
     {

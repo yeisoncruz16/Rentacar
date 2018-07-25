@@ -4,9 +4,9 @@
         <a href="<?php echo site_url('rent/') ?>" class="rent"> Rent a Car</a>
         <nav class="menus">
             <ul>
-                <li> <a href="<?php echo site_url('rent/') ?>">Incio</a> </li>
+                <li> <a href="<?php echo site_url('rent/') ?>">Inicio</a> </li>
                 <li> <a href="<?php echo site_url('autos/') ?>">Vehículos</a> </li>
-                <li> <a>Requisitos</a> </li>
+                <li> <a href="<?php echo site_url('requisitos/') ?>">Requisitos</a> </li>
                 <li> <a>Iniciar sesion</a> </li>
             </ul>
         </nav>
