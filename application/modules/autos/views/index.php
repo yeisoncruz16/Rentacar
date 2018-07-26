@@ -1,17 +1,6 @@
 <link rel="stylesheet" type="text/css" href="http://bonfire.com/themes/default/css/estilosVehiculos.css" media="screen" />
-<header>
-    <div class="contenedor">
-        <a href="<?php echo site_url('rent/') ?>" class="rent"> Rent a Car</a>
-        <nav class="menus">
-            <ul>
-                <li> <a href="<?php echo site_url('rent/') ?>">Inicio</a> </li>
-                <li> <a href="<?php echo site_url('autos/') ?>">Vehículos</a> </li>
-                <li> <a href="<?php echo site_url('requisitos/') ?>">Requisitos</a> </li>
-                <li> <a>Iniciar sesion</a> </li>
-            </ul>
-        </nav>
-    </div>
-</header>
+
+<?php include ('/var/www/html/Bonfire-master/application/views/commons/header.php');?>
 
 <?php if(isset($autos)) : ?>
     <?php foreach ($autos as $auto) : ?>
@@ -37,7 +26,11 @@
         </div>
 
         <div class="form-actions">
-            <a href="<?php echo site_url('reservas/') ?>" class="selectCar" >Reserva</a>
+            <?php if($login) {?>
+                <a href="<?php echo site_url('reservas/') ?>" class="selectCar" >Reserva</a>
+            <?php } else{?>
+                <a href="<?php echo site_url('login/') ?>">Inicie sesion o registrese para acceder al formulario</a>
+            <?php }?>
         </div>
 
     <?php endforeach; ?>

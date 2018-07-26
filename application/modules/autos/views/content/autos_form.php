@@ -1,8 +1,3 @@
-<html lang= "es">
-<meta charset="UTF-8">
-<meta name="viewport" content= "width = device- width, user-scalable=no,
-    initial-scale1, maximum-scale=1">
-
 <head>
     <h1>Autos</h1>
 </head>

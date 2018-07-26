@@ -5,7 +5,7 @@ class Requisitos extends MX_Controller
     public function __construct()
     {
         parent::__construct();
-
+        $this->load->library('users/auth');
         $this->load->helper('application');
         $this->load->library('Template');
         $this->load->library('Assets');

@@ -1,17 +1,6 @@
 <link rel="stylesheet" type="text/css" href="http://bonfire.com/themes/default/css/estilos.css" media="screen" />
-<header>
-    <div class="contenedor">
-        <a href="<?php echo site_url('rent/') ?>" class="rent"> Rent a Car</a>
-        <nav class="menus">
-            <ul>
-                <li> <a href="<?php echo site_url('rent/') ?>">Inicio</a> </li>
-                <li> <a href="<?php echo site_url('autos/') ?>">Vehículos</a> </li>
-                <li> <a href="<?php echo site_url('requisitos/') ?>">Requisitos</a> </li>
-                <li> <a>Iniciar sesion</a> </li>
-            </ul>
-        </nav>
-    </div>
-</header>
+
+<?php include ('/var/www/html/Bonfire-master/application/views/commons/header.php');?>
 
 <main>
     <section id="bienvenidos">
@@ -69,11 +58,4 @@
     </section>
 </main>
 
-<footer>
-    <div class="contenedor">
-        <p id="copy">Rent a Car &copy; 2018</p>
-        <div class="sociales">
-            <a class="icon-facebook-squared" href="https://www.facebook.com/Gallo-Garrido-Rent-A-Car-1078192468886310/"> </a>
-        </div>
-    </div>
-</footer>
+<?php include ('/var/www/html/Bonfire-master/application/views/commons/footer.php');?>

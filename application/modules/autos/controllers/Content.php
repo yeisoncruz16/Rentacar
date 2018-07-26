@@ -9,6 +9,7 @@
          parent::__construct();
          Template::set('toolbar_title', 'aa');
          Template::set_block('sub_nav', 'content/sub_nav');
+         $this->load->library('users/auth');
      }
 
      public function index()

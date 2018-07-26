@@ -5,7 +5,7 @@ class Rent extends MX_Controller
     public function __construct()
     {
         parent::__construct();
-
+        $this->load->library('users/auth');
         $this->load->helper('application');
         $this->load->library('Template');
         $this->load->library('Assets');
@@ -14,6 +14,7 @@ class Rent extends MX_Controller
         Assets::css("http://bonfire.com/themes/default/css/estilos.css");
         Assets::css("http://bonfire.com/themes/default/css/fontello.css");
         $this->load->library('installer_lib');
+
         if (! $this->installer_lib->is_installed()) {
             $ci =& get_instance();
             $ci->hooks->enabled = false;
@@ -24,6 +25,7 @@ class Rent extends MX_Controller
     }
     public function index()
     {
+
         Template::render();
     }
 
