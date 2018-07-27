@@ -58,4 +58,4 @@
         <!-- This would be a good place to use a CDN version of jQueryUI if needed -->
         <script type="text/javascript" src="public/assets/js/bootstrap.min.js" ></script>
     </body>
-</html>
+</html>.
